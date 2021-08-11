@@ -78,5 +78,5 @@
   },
   "MemoryProfileUploadURLPrefix": "gs://avf-pipeline-logs-performance-nearline",
   "DataArchiveUploadURLPrefix": "gs://pipeline-execution-backup-archive",
-  "BucketDirPath": "2021/KE-VAX"
+  "BucketDirPath": "2021/KE-CONSTITUTION-REVIEW"
 }
