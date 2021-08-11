@@ -10,7 +10,9 @@ def _open_scheme(filename):
 
 
 class CodeSchemes(object):
-    VACCINATION_THOUGHTS = _open_scheme("vaccination_thoughts.json")
+    APPOINTMENT_VIEWS = _open_scheme("appointment_views.json")
+    APPOINTMENT_BENEFITS = _open_scheme("appointment_benefits.json")
+    APPOINTMENT_CHALLENGES = _open_scheme("appointment_challenges.json")
     OTHER_MESSAGES = _open_scheme("other_messages.json")
 
     ENGAGEMENT_POLL_CHATTING_APPS = _open_scheme("engagement_poll_chatting_apps.json")
