@@ -15,14 +15,10 @@ DATA_ROOT=$3
 ./checkout_coda_v2.sh "$CODA_V2_ROOT"
 
 DATASETS=(
-    "KE_VAX_vaccination_thoughts"
-    "KE_VAX_other_messages"
-
-    "KE_Engagement_poll_chatting_apps"
-    "KE_Engagement_poll_access_to_internet"
-    "KE_Engagement_poll_facebook_usage"
-    "KE_Engagement_poll_radio_stations"
-    "KE_Engagement_poll_other_messages"
+    "ke_constitution_amendment_poll_appointment_views"
+    "ke_constitution_amendment_poll_appointment_benefits"
+    "ke_constitution_amendment_poll_appointment_challenges"
+    "ke_constitution_amendment_poll_other_messages"
 
     "Kenya_Pool_age"
     "Kenya_Pool_gender"
