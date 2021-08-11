@@ -6,8 +6,8 @@
       "Domain": "textit.in",
       "TokenFileURL": "gs://avf-credentials/ke-vax-textit-token.txt",
       "ActivationFlowNames": [
-        "ke_constitution_amendment_poll",
-        "ke_constitutionammendment_poll_catch_all"
+        "ke_constitution_review_poll",
+        "ke_constitution_review_poll_catch_all"
       ],
       "SurveyFlowNames": [
 
