@@ -30,7 +30,10 @@
         "gs://avf-project-datasets/2021/Kenya-Pool/oxfam_wash_s01_demog.jsonl",
         "gs://avf-project-datasets/2021/Kenya-Pool/undp_kenya_s01_demog.jsonl",
         "gs://avf-project-datasets/2021/Kenya-Pool/unicef_covid19_ke_s01_demog.jsonl",
-        "gs://avf-project-datasets/2021/Kenya-Pool/worldvision_s01_demog.jsonl"
+        "gs://avf-project-datasets/2021/Kenya-Pool/worldvision_s01_demog.jsonl",
+        "gs://avf-project-datasets/2021/Kenya-Pool/gpsdd_bungoma_s01_demog.jsonl",
+        "gs://avf-project-datasets/2021/Kenya-Pool/gpsdd_kilifi_s01_demog.jsonl",
+        "gs://avf-project-datasets/2021/Kenya-Pool/gpsdd_kiambu_s01_demog.jsonl"
       ]
     }
   ],
