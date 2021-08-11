@@ -1,5 +1,5 @@
 {
-  "PipelineName": "KE-CONSTITUTION-REVIEW",
+  "PipelineName": "KE-Constitution-Review",
   "RawDataSources": [
     {
       "SourceType": "RapidPro",
