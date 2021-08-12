@@ -48,7 +48,7 @@
   "RapidProKeyRemappings": [
     {"RapidProKey": "avf_phone_id", "PipelineKey": "uid"},
 
-    {"RapidProKey": "appointment_views (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_views_raw", "IsActivationMessage": true},
+    {"RapidProKey": "Appointment_Views (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_views_raw", "IsActivationMessage": true},
     {"RapidProKey": "appointment_views (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_views_run_id"},
     {"RapidProKey": "appointment_views (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
     
