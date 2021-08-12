@@ -29,7 +29,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="appointment_views",
             time_field="sent_on",
             run_id_field="appointment_views_run_id",
-            coda_filename="KE-Constitution-Review_appointment_views.json",
+            coda_filename="KE-CONSTITUTION-REVIEW_appointment_views.json",
             icr_filename="appointment_views.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -43,19 +43,19 @@ def get_rqa_coding_plans(pipeline_name):
             raw_field_fold_strategy=FoldStrategies.concatenate
         ),
         CodingPlan(
-            raw_field="appointment_benefit_raw",
-            dataset_name="appointment_benefit",
+            raw_field="appointment_benefits_raw",
+            dataset_name="appointment_benefits",
             time_field="sent_on",
-            run_id_field="appointment_benefit_run_id",
-            coda_filename="KE-Constitution-Review_appointment_benefit.json",
-            icr_filename="appointment_benefit.csv",
+            run_id_field="appointment_benefits_run_id",
+            coda_filename="KE-CONSTITUTION-REVIEW_appointment_benefits.json",
+            icr_filename="appointment_benefits.csv",
             coding_configurations=[
                 CodingConfiguration(
                     coding_mode=CodingModes.MULTIPLE,
-                    code_scheme=CodeSchemes.APPOINTMENT_BENEFIT,
-                    coded_field="appointment_benefit_coded",
-                    analysis_file_key="appointment_benefit",
-                    fold_strategy=partial(FoldStrategies.list_of_labels, CodeSchemes.APPOINTMENT_BENEFIT)
+                    code_scheme=CodeSchemes.APPOINTMENT_BENEFITS,
+                    coded_field="appointment_benefits_coded",
+                    analysis_file_key="appointment_benefits",
+                    fold_strategy=partial(FoldStrategies.list_of_labels, CodeSchemes.APPOINTMENT_BENEFITS)
                 )
             ],
             raw_field_fold_strategy=FoldStrategies.concatenate
@@ -65,7 +65,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="appointment_challenges",
             time_field="sent_on",
             run_id_field="appointment_challenges_run_id",
-            coda_filename="KE-Constitution-Review_appointment_challenges.json",
+            coda_filename="KE-CONSTITUTION-REVIEW_appointment_challenges.json",
             icr_filename="appointment_challenges.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -83,7 +83,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="other_messages",
             time_field="sent_on",
             run_id_field="other_messages_run_id",
-            coda_filename="KE-Constitution-Review_other_messages.json",
+            coda_filename="KE-CONSTITUTION-REVIEW_other_messages.json",
             icr_filename="other_messages.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -96,6 +96,95 @@ def get_rqa_coding_plans(pipeline_name):
             ],
             raw_field_fold_strategy=FoldStrategies.concatenate
         )
+    ]
+
+
+def get_demog_coding_plans(pipeline_name):
+    return [
+        CodingPlan(
+            dataset_name="gender",
+            raw_field="gender_raw",
+            time_field="gender_time",
+            coda_filename="Kenya_Pool_gender.json",
+            coding_configurations=[
+                CodingConfiguration(
+                    coding_mode=CodingModes.SINGLE,
+                    code_scheme=CodeSchemes.GENDER,
+                    cleaner=swahili.DemographicCleaner.clean_gender,
+                    coded_field="gender_coded",
+                    analysis_file_key="gender",
+                    fold_strategy=FoldStrategies.assert_label_ids_equal
+                )
+            ],
+            ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("gender"),
+            raw_field_fold_strategy=FoldStrategies.assert_equal
+        ),
+
+        CodingPlan(dataset_name="age",
+                   raw_field="age_raw",
+                   time_field="age_time",
+                   coda_filename="Kenya_Pool_age.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.AGE,
+                           cleaner=clean_age_with_range_filter,
+                           coded_field="age_coded",
+                           analysis_file_key="age",
+                           include_in_theme_distribution=False,
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       ),
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.AGE_CATEGORY,
+                           coded_field="age_category_coded",
+                           analysis_file_key="age_category",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   code_imputation_function=code_imputation_functions.impute_age_category,
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("age"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(dataset_name="location",
+                   raw_field="location_raw",
+                   time_field="location_time",
+                   coda_filename="Kenya_Pool_location.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.KENYA_COUNTY,
+                           coded_field="county_coded",
+                           analysis_file_key="county",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       ),
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.KENYA_CONSTITUENCY,
+                           coded_field="constituency_coded",
+                           analysis_file_key="constituency",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   code_imputation_function=code_imputation_functions.impute_kenya_location_codes,
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("location"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(dataset_name="disabled",
+                   raw_field="disabled_raw",
+                   time_field="disabled_time",
+                   coda_filename="Kenya_Pool_disabled.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.DISABLED,
+                           coded_field="disabled_coded",
+                           analysis_file_key="disabled",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("disabled"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal)
     ]
 
 

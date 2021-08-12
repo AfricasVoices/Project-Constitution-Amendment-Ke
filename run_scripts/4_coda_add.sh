@@ -15,10 +15,10 @@ DATA_ROOT=$3
 ./checkout_coda_v2.sh "$CODA_V2_ROOT"
 
 DATASETS=(
-    "ke_constitution_review_appointment_views"
-    "ke_constitution_review_appointment_benefits"
-    "ke_constitution_review_appointment_challenges"
-    "ke_constitution_review_other_messages"
+    "KE_CONSTITUTION_REVIEW_appointment_views"
+    "KE_CONSTITUTION_REVIEW_appointment_benefits"
+    "KE_CONSTITUTION_REVIEW_appointment_challenges"
+    "KE_CONSTITUTION_REVIEW_other_messages"
 
     "Kenya_Pool_age"
     "Kenya_Pool_gender"
