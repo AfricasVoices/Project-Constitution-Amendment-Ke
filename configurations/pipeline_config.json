@@ -49,20 +49,20 @@
     {"RapidProKey": "avf_phone_id", "PipelineKey": "uid"},
 
     {"RapidProKey": "Appointment_Views (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_views_raw", "IsActivationMessage": true},
-    {"RapidProKey": "appointment_views (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_views_run_id"},
-    {"RapidProKey": "appointment_views (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
+    {"RapidProKey": "Appointment_Views (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_views_run_id"},
+    {"RapidProKey": "Appointment_Views (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
     
-    {"RapidProKey": "appointment_benefit (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_benefit_raw", "IsActivationMessage": true},
-    {"RapidProKey": "appointment_benefit (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_benefit_run_id"},
-    {"RapidProKey": "appointment_benefit (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
+    {"RapidProKey": "Appointment_Benefit (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_benefit_raw", "IsActivationMessage": true},
+    {"RapidProKey": "Appointment_Benefit (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_benefit_run_id"},
+    {"RapidProKey": "Appointment_Benefit (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
     
-    {"RapidProKey": "appointment_challenges (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_challenges_raw", "IsActivationMessage": true},
-    {"RapidProKey": "appointment_challenges (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_challenges_run_id"},
-    {"RapidProKey": "appointment_challenges (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
+    {"RapidProKey": "Appointment_Challenges (Text) - ke_constitution_review_poll", "PipelineKey": "appointment_challenges_raw", "IsActivationMessage": true},
+    {"RapidProKey": "Appointment_Challenges (Run ID) - ke_constitution_review_poll", "PipelineKey": "appointment_challenges_run_id"},
+    {"RapidProKey": "Appointment_Challenges (Time) - ke_constitution_review_poll", "PipelineKey": "sent_on"},
 
-    {"RapidProKey": "other_messages (Text) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_raw", "IsActivationMessage": true},
-    {"RapidProKey": "other_messages (Run ID) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_run_id"},
-    {"RapidProKey": "other_messages (Time) - ke_constitution_review_poll_catch_all", "PipelineKey": "sent_on"},
+    {"RapidProKey": "Other_Messages (Text) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_raw", "IsActivationMessage": true},
+    {"RapidProKey": "Other_Messages (Run ID) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_run_id"},
+    {"RapidProKey": "Other_Messages (Time) - ke_constitution_review_poll_catch_all", "PipelineKey": "sent_on"},
 
     {"RapidProKey": "Constituency (Text) - covid19_s01_demog", "PipelineKey": "location_raw"},
     {"RapidProKey": "Constituency (Time) - covid19_s01_demog", "PipelineKey": "location_time"},
