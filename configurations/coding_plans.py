@@ -29,7 +29,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="appointment_views",
             time_field="sent_on",
             run_id_field="appointment_views_run_id",
-            coda_filename="KE-CONSTITUTION-REVIEW_appointment_views.json",
+            coda_filename="KE_CONSTITUTION_REVIEW_appointment_views.json",
             icr_filename="appointment_views.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -47,7 +47,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="appointment_benefits",
             time_field="sent_on",
             run_id_field="appointment_benefits_run_id",
-            coda_filename="KE-CONSTITUTION-REVIEW_appointment_benefits.json",
+            coda_filename="KE_CONSTITUTION_REVIEW_appointment_benefits.json",
             icr_filename="appointment_benefits.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -65,7 +65,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="appointment_challenges",
             time_field="sent_on",
             run_id_field="appointment_challenges_run_id",
-            coda_filename="KE-CONSTITUTION-REVIEW_appointment_challenges.json",
+            coda_filename="KE_CONSTITUTION_REVIEW_appointment_challenges.json",
             icr_filename="appointment_challenges.csv",
             coding_configurations=[
                 CodingConfiguration(
@@ -83,7 +83,7 @@ def get_rqa_coding_plans(pipeline_name):
             dataset_name="other_messages",
             time_field="sent_on",
             run_id_field="other_messages_run_id",
-            coda_filename="KE-CONSTITUTION-REVIEW_other_messages.json",
+            coda_filename="KE_CONSTITUTION_REVIEW_other_messages.json",
             icr_filename="other_messages.csv",
             coding_configurations=[
                 CodingConfiguration(
