@@ -40,7 +40,7 @@
   "ListeningGroupCSVURLs": [],
   "PhoneNumberUuidTable": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
-    "TableName": "KE-VAX_phone_number_avf_phone_id"
+    "TableName": "KE-Constitution-Review_phone_number_avf_phone_id"
   },
   "OperationsDashboard": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json"
