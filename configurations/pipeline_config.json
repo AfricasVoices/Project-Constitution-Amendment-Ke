@@ -70,6 +70,8 @@
     {"RapidProKey": "Gender (Time) - ke_constitution_review_poll_demog", "PipelineKey": "gender_time"},
     {"RapidProKey": "Age (Text) - ke_constitution_review_poll_demog", "PipelineKey": "age_raw"},
     {"RapidProKey": "Age (Time) - ke_constitution_review_poll_demog", "PipelineKey": "age_time"},
+    {"RapidProKey": "Disabled (Text) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_raw"},
+    {"RapidProKey": "Disabled (Time) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_time"},
 
     {"RapidProKey": "Constituency (Text) - covid19_s01_demog", "PipelineKey": "location_raw"},
     {"RapidProKey": "Constituency (Time) - covid19_s01_demog", "PipelineKey": "location_time"},
