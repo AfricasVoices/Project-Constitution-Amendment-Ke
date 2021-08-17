@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-dce05660",
+            "CodeType": "Normal",
+            "DisplayText": "tribalism",
+            "NumericValue": 1,
+            "StringValue": "tribalism",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7d25b054",
+            "CodeType": "Normal",
+            "DisplayText": "corruption",
+            "NumericValue": 2,
+            "StringValue": "corruption",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ee13552b",
+            "CodeType": "Normal",
+            "DisplayText": "lack of peace",
+            "NumericValue": 3,
+            "StringValue": "lack_of_peace",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-46e79794",
+            "CodeType": "Normal",
+            "DisplayText": "increased taxation",
+            "NumericValue": 4,
+            "StringValue": "increased_taxation",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8fa8d9c4",
+            "CodeType": "Normal",
+            "DisplayText": "poor leadership",
+            "NumericValue": 5,
+            "StringValue": "poor_leadership",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-cfe75788",
+            "CodeType": "Normal",
+            "DisplayText": "disagreement or difference",
+            "NumericValue": 6,
+            "StringValue": "disagreement_or_difference",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-530effda",
+            "CodeType": "Normal",
+            "DisplayText": "no challenges",
+            "NumericValue": 7,
+            "StringValue": "no_challenges",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-56851871",
+            "CodeType": "Normal",
+            "DisplayText": "lack qualification and skills",
+            "NumericValue": 8,
+            "StringValue": "lack_qualification_and_skills",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-51897a68",
+            "CodeType": "Normal",
+            "DisplayText": "other theme",
+            "NumericValue": 9,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
