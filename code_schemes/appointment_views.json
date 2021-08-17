@@ -62,9 +62,9 @@
         {
             "CodeID": "code-8673e3fd",
             "CodeType": "Normal",
-            "DisplayText": "other more important prioritites",
+            "DisplayText": "other more important priorities",
             "NumericValue": 8,
-            "StringValue": "other_more_important_prioritites",
+            "StringValue": "other_more_important_priorities",
             "VisibleInCoda": true
         },
         {
