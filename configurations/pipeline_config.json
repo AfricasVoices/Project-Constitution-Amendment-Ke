@@ -10,7 +10,7 @@
         "ke_constitution_review_poll_catch_all"
       ],
       "SurveyFlowNames": [
-
+        "ke_constitution_review_poll_demog"
       ],
       "TestContactUUIDs": [
         "74efc650-b89d-4d66-89c5-0e9a99912b8a",
@@ -63,6 +63,15 @@
     {"RapidProKey": "Other_Messages (Text) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_raw", "IsActivationMessage": true},
     {"RapidProKey": "Other_Messages (Run ID) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_run_id"},
     {"RapidProKey": "Other_Messages (Time) - ke_constitution_review_poll_catch_all", "PipelineKey": "sent_on"},
+
+    {"RapidProKey": "Constituency (Text) - ke_constitution_review_poll_demog", "PipelineKey": "location_raw"},
+    {"RapidProKey": "Constituency (Time) - ke_constitution_review_poll_demog", "PipelineKey": "location_time"},
+    {"RapidProKey": "Gender (Text) - ke_constitution_review_poll_demog", "PipelineKey": "gender_raw"},
+    {"RapidProKey": "Gender (Time) - ke_constitution_review_poll_demog", "PipelineKey": "gender_time"},
+    {"RapidProKey": "Age (Text) - ke_constitution_review_poll_demog", "PipelineKey": "age_raw"},
+    {"RapidProKey": "Age (Time) - ke_constitution_review_poll_demog", "PipelineKey": "age_time"},
+    {"RapidProKey": "Disabled (Text) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_raw"},
+    {"RapidProKey": "Disabled (Time) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_time"},
 
     {"RapidProKey": "Constituency (Text) - covid19_s01_demog", "PipelineKey": "location_raw"},
     {"RapidProKey": "Constituency (Time) - covid19_s01_demog", "PipelineKey": "location_time"},
@@ -135,9 +144,9 @@
     {"RapidProKey": "Disabled (Text) - gpsdd_bungoma_s01_demog", "PipelineKey": "disabled_raw"},
     {"RapidProKey": "Disabled (Time) - gpsdd_bungoma_s01_demog", "PipelineKey": "disabled_time"}
   ],
-  "ProjectStartDate": "2021-08-11T00:00:00+03:00",
+  "ProjectStartDate": "2021-08-12T16:30:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
-  "FilterTestMessages": false,
+  "FilterTestMessages": true,
   "MoveWSMessages": true,
   "AutomatedAnalysis": {
     "GenerateCountyThemeDistributionMaps": true,
