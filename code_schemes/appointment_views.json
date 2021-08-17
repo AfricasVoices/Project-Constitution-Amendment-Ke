@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-7ca31313",
+            "CodeType": "Normal",
+            "DisplayText": "against constitution reform",
+            "NumericValue": 1,
+            "StringValue": "against_constitution_reform",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0a4bfbee",
+            "CodeType": "Normal",
+            "DisplayText": "support for the appointement",
+            "NumericValue": 2,
+            "StringValue": "support_for_the_appointement",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7e3bc9cd",
+            "CodeType": "Normal",
+            "DisplayText": "corruption",
+            "NumericValue": 3,
+            "StringValue": "corruption",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0e0bbcb2",
+            "CodeType": "Normal",
+            "DisplayText": "call for citizen involvement",
+            "NumericValue": 4,
+            "StringValue": "call_for_citizen_involvement",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-201988ef",
+            "CodeType": "Normal",
+            "DisplayText": "improved service delivery",
+            "NumericValue": 5,
+            "StringValue": "improved_service_delivery",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5ea9ae3e",
+            "CodeType": "Normal",
+            "DisplayText": "negative cost implications",
+            "NumericValue": 6,
+            "StringValue": "negative_cost_implications",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-135be849",
+            "CodeType": "Normal",
+            "DisplayText": "other theme",
+            "NumericValue": 7,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+          },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
