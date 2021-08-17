@@ -4,6 +4,86 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-693b5e38",
+            "CodeType": "Normal",
+            "DisplayText": "improved and efficient service delivery",
+            "NumericValue": 1,
+            "StringValue": "improved_and_efficient_service_delivery",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ad32d4c9",
+            "CodeType": "Normal",
+            "DisplayText": "discrimination and division",
+            "NumericValue": 2,
+            "StringValue": "discrimination_and_division",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b6e24e42",
+            "CodeType": "Normal",
+            "DisplayText": "corruption",
+            "NumericValue": 3,
+            "StringValue": "corruption",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ea516db4",
+            "CodeType": "Normal",
+            "DisplayText": "against the appointment",
+            "NumericValue": 4,
+            "StringValue": "against_the_appointment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5a660a2b",
+            "CodeType": "Normal",
+            "DisplayText": "increased taxation",
+            "NumericValue": 5,
+            "StringValue": "increased_taxation",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d5f6727b",
+            "CodeType": "Normal",
+            "DisplayText": "negative cost implications",
+            "NumericValue": 6,
+            "StringValue": "negative_cost_implications",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-82b33199",
+            "CodeType": "Normal",
+            "DisplayText": "misuse of public funds",
+            "NumericValue": 7,
+            "StringValue": "misuse_of_public_funds",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-646a37f9",
+            "CodeType": "Normal",
+            "DisplayText": "lack of citizen involment",
+            "NumericValue": 8,
+            "StringValue": "lack_of_citizen_involment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f2c9b64a",
+            "CodeType": "Normal",
+            "DisplayText": "lack of accountability",
+            "NumericValue": 9,
+            "StringValue": "lack_of_accountability",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5296c084",
+            "CodeType": "Normal",
+            "DisplayText": "other theme",
+            "NumericValue": 10,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
