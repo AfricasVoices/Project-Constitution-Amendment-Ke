@@ -78,7 +78,7 @@
         {
             "CodeID": "code-eed01071",
             "CodeType": "Normal",
-            "DisplayText": "i don't know",
+            "DisplayText": "i do not know",
             "NumericValue": 10,
             "StringValue": "i_do_not_know",
             "VisibleInCoda": true
