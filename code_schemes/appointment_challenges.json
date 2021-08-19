@@ -84,6 +84,14 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-a98a7fda",
+            "CodeType": "Normal",
+            "DisplayText": "negative impact",
+            "NumericValue": 11,
+            "StringValue": "negative_impact",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
