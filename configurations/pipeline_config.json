@@ -40,7 +40,7 @@
   "ListeningGroupCSVURLs": [],
   "PhoneNumberUuidTable": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
-    "TableName": "KE-Constitution-Review_phone_number_avf_phone_id"
+    "TableName": "KE-VAX_phone_number_avf_phone_id"
   },
   "OperationsDashboard": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json"
@@ -63,15 +63,6 @@
     {"RapidProKey": "Other_Messages (Text) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_raw", "IsActivationMessage": true},
     {"RapidProKey": "Other_Messages (Run ID) - ke_constitution_review_poll_catch_all", "PipelineKey": "other_messages_run_id"},
     {"RapidProKey": "Other_Messages (Time) - ke_constitution_review_poll_catch_all", "PipelineKey": "sent_on"},
-
-    {"RapidProKey": "Constituency (Text) - ke_constitution_review_poll_demog", "PipelineKey": "location_raw"},
-    {"RapidProKey": "Constituency (Time) - ke_constitution_review_poll_demog", "PipelineKey": "location_time"},
-    {"RapidProKey": "Gender (Text) - ke_constitution_review_poll_demog", "PipelineKey": "gender_raw"},
-    {"RapidProKey": "Gender (Time) - ke_constitution_review_poll_demog", "PipelineKey": "gender_time"},
-    {"RapidProKey": "Age (Text) - ke_constitution_review_poll_demog", "PipelineKey": "age_raw"},
-    {"RapidProKey": "Age (Time) - ke_constitution_review_poll_demog", "PipelineKey": "age_time"},
-    {"RapidProKey": "Disabled (Text) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_raw"},
-    {"RapidProKey": "Disabled (Time) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_time"},
 
     {"RapidProKey": "Constituency (Text) - covid19_s01_demog", "PipelineKey": "location_raw"},
     {"RapidProKey": "Constituency (Time) - covid19_s01_demog", "PipelineKey": "location_time"},
@@ -142,7 +133,16 @@
     {"RapidProKey": "Age (Text) - gpsdd_bungoma_s01_demog", "PipelineKey": "age_raw"},
     {"RapidProKey": "Age (Time) - gpsdd_bungoma_s01_demog", "PipelineKey": "age_time"},
     {"RapidProKey": "Disabled (Text) - gpsdd_bungoma_s01_demog", "PipelineKey": "disabled_raw"},
-    {"RapidProKey": "Disabled (Time) - gpsdd_bungoma_s01_demog", "PipelineKey": "disabled_time"}
+    {"RapidProKey": "Disabled (Time) - gpsdd_bungoma_s01_demog", "PipelineKey": "disabled_time"},
+
+    {"RapidProKey": "Constituency (Text) - ke_constitution_review_poll_demog", "PipelineKey": "location_raw"},
+    {"RapidProKey": "Constituency (Time) - ke_constitution_review_poll_demog", "PipelineKey": "location_time"},
+    {"RapidProKey": "Gender (Text) - ke_constitution_review_poll_demog", "PipelineKey": "gender_raw"},
+    {"RapidProKey": "Gender (Time) - ke_constitution_review_poll_demog", "PipelineKey": "gender_time"},
+    {"RapidProKey": "Age (Text) - ke_constitution_review_poll_demog", "PipelineKey": "age_raw"},
+    {"RapidProKey": "Age (Time) - ke_constitution_review_poll_demog", "PipelineKey": "age_time"},
+    {"RapidProKey": "Disabled (Text) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_raw"},
+    {"RapidProKey": "Disabled (Time) - ke_constitution_review_poll_demog", "PipelineKey": "disabled_time"}
   ],
   "ProjectStartDate": "2021-08-12T16:30:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
